@@ -12,7 +12,7 @@
 
     SESSION_LOCALE = locale != null && locale != '' ? locale : 'en';
 
-    require(["common-ui/jquery", "pentaho/i18n-osgi!test.messages"], function($, bundle) {
+    require(["common-ui/jquery", "pentaho/i18n!test.messages"], function($, bundle) {
       $('#title').text(bundle.structured['title']);
 
       $('#btnChange').click(function() {

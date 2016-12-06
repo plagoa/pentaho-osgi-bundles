@@ -24,7 +24,7 @@
     </service>
     <service interface="javax.servlet.Servlet" id="i18nServlet">
         <service-properties>
-            <entry key="alias" value="/i18n"/>
+            <entry key="alias" value="/i18n-legacy"/>
             <entry key="servlet-name" value="LocalizationServlet"/>
         </service-properties>
         <bean class="org.pentaho.platform.web.servlet.LocalizationServlet" />
